@@ -1,0 +1,39 @@
+.header-blue{
+    background-color: #000912;
+}
+
+.text-white-400{
+    color:#fff;  /*#ffffff*/
+    font:1rem 'Poppins', sans-serif;
+}
+
+.text-white-400:hover{
+    color: #1BD964;
+}
+
+.text-turquoise-poppins{
+    color : #00879e;
+    font:bold 35px 'Poppins',sans-serif;
+}
+
+.rounded-alt{
+    border-radius: 0;
+}
+
+.checkbox:checked {
+    right: 0;
+    background-color: #4338ca;
+}
+
+.bg-turquoise{
+    background-color: #00879e;
+}
+
+.bg-hero{
+    background-color: #000912;
+}
+
+.radius-btn{
+    border-radius: 5px;
+    font-family: 'Nunito', sans-serif;
+}
