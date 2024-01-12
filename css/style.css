@@ -93,7 +93,7 @@ a {
 
 .txt-block h1{
     font: 2rem 'Poppins', sans-serif;
-    color: var(--blueturqoise);
+    color: var(--blueturquoise);
     font-weight: 600;
     display: flex;
     align-items: center;
