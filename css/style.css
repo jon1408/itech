@@ -328,7 +328,215 @@ a {
     font-weight: 500;
 }
 
+.descricao{
+    padding-bottom: 50px;
+}
+
+.txt-block-descricao{
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.txt-block-descricao h3{
+    font: 2rem 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.txt-block-descricao p{
+    font: 14px 'Nunito', sans-serif;
+    padding: 0 20px;
+    color: #334155;
+}
+
+.txt-block-descricao hr{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border: none;
+    background-color: var(--blueturquoise);
+    height: 2px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-block-descricao h4{
+    font: 14px 'Nunito', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.img-gestao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 0 0 50px;
+}
+
+.img-gestao img{
+    border-radius: 15px;
+}
+
+.missao{
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.img-missao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 50px;
+}
+
+.img-missao img{
+    border-radius: 15px;
+}
+
+.txt-block-missao h3{
+    font: 2rem 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.txt-block-missao p{
+    font: 14px 'Nunito', sans-serif;
+    padding: 0 20px;
+    color: #334155;
+}
+
+.txt-block-missao hr{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border: none;
+    background-color: var(--blueturquoise);
+    height: 2px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-block-visao{
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.txt-block-visao h3{
+    font: 2rem 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.txt-block-visao hr{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border: none;
+    background-color: var(--blueturquoise);
+    height: 2px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-block-visao p{
+    font: 14px 'Nunito', sans-serif;
+    padding: 0 20px;
+    color: #334155;
+}
+
+.valores{
+    padding: 0 0 50px;
+}
+
+.txt-block-valores{
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.txt-block-valores h3{
+    font: 2rem 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 600;
+}
+
+.txt-block-valores hr{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    border: none;
+    background-color: var(--blueturquoise);
+    height: 2px;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-block-valores p, .txt-block-valores-2 p{
+    font: 14px 'Nunito', sans-serif;
+    padding: 0 20px;
+    color: #334155;
+}
+
+.card-turquoise{
+    background-color: var(--blueturquoise);
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-turquoise h1{
+    font: 2rem 'Poppins', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+
+.card-turquoise hr{
+    margin: 25px auto;
+    border: none;
+    background-color: var(--deepblue);
+    height: 2px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-turquoise p{
+    font: 14px 'Nunito', sans-serif;
+    padding: 0 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.card-turquoise button{
+    background-color: var(--neongreen);
+    color: #fff;
+    font: 16px 'Poppins', sans-serif;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
 /*Fim Sobre*/
+
+/* Começo Serviços*/
+
+
+
+/*Fim Serviços*/
 
 /*Começo botão de Retorno*/
 
@@ -432,7 +640,7 @@ footer p{
 
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     
 
 }
