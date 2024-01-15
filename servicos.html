@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/alt-tailwind.css" />
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/cropped-powerbutton_120788-2.ico" type="image/x-icon">
+    <title>Serviços | ITECH</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+          <a href="#" class="nav-logo"><img src="img/Background-7-120x22.png" alt="logo"></a>
+          <ul class="nav-menu">
+              <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="sobre.html" class="nav-link">Sobre</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">Serviços</a>
+              </li>
+              <li class="nav-item">
+                  <a href="contato.html" class="nav-link">Contato</a>
+              </li>
+          </ul>
+          <button class="btn-contato">Fale Conosco</button>
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+      </nav>
+    </header>
+    <main>
+      <div class="hero-s">
+        <h1>Serviços</h1>
+        <hr>
+      </div>
+      <div class="servicos-cards">
+        <a href=""><section class="cards-links">
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/apoio-suporte-1-60x60.png">
+            <source media="(min-width: 769px)" srcset="img/apoio-suporte-1-150x150.png">
+            <img src="img/apoio-suporte-1-60x60.png" alt="Suporte Técnico">
+          </picture>
+          <p>Suporte Técnico</p>
+        </section></a>
+        <section class="cards-links">
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/Novo-Projeto-6-60x60.png">
+            <source media="(min-width: 769px)" srcset="img/Novo-Projeto-6-150x150.png">
+            <img src="img/Novo-Projeto-6-60x60.png" alt="Manutenção">
+          </picture>
+          <p>Manutenção</p>
+        </section>
+        <section class="cards-links">
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/web-design-60x60.png">
+            <source media="(min-width: 769px)" srcset="img/web-design-150x150.png">
+            <img src="img/web-design-60x60.png" alt="Desenvolvimento Web">
+          </picture>
+          <p>Desenvolvimento Web</p>
+        </section>
+      </div>
+      <div class="descricao-servicos">
+        <div class="suporte">
+          <h2>Suporte Técnico</h2>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/suporte tecnico-375.jpg">
+            <source media="(min-width: 769px)" srcset="img/suporte tecnico-769.jpg">
+            <img src="img/suporte tecnico-375.jpg" alt="Suporte Técnico">
+          </picture>
+          <h3>Visão Geral</h3>
+          <p>Suporte técnico é um serviço que ajuda a resolver problemas relacionados a dispositivos, software e sistemas de tecnologia, além de fornecer orientações e assistência aos usuários para garantir seu funcionamento adequado. Pode ser prestado de diversas formas, como suporte presencial, por telefone, e-mail, chat online e acesso remoto. O objetivo é solucionar questões técnicas, prevenir problemas futuros e facilitar o uso eficaz da tecnologia. É crucial para empresas e organizações manter seus sistemas em funcionamento e satisfazer seus usuários.</p>
+          <h3>Processo de atendimento</h3>
+          <div class="acordeon">
+            <button class="accordion">1. Nível 1 – Service Desk</button>
+            <div class="panel">
+              <p>Neste nível estão o atendimento dos chamados e os registros das solicitações. Eles são direcionados para o próximo nível. Ele somente faz a abertura dos chamados.</p>
+            </div>
+          </div>
+          <div class="acordeon">
+            <button class="accordion">2. Nível 2 – Help Desk</button>
+            <div class="panel">
+              <p>Este nível tenta prover uma solução. Se ele não conseguir, ele tenta com os profissionais do próximo nível prover uma solução. É o nível de atendimento em campo.</p>
+            </div>
+          </div>
+          <div class="acordeon">
+            <button class="accordion">3. Nível 3 – Redes e Segurança</button>
+            <div class="panel">
+              <p>Aqui se atende os chamados do nível hierárquico inferior e se os profissionais não conseguirem resolver, o chamado ou solicitação é passada para o último e próximo nível. É o nível de resolução de problemas de redes e segurança.</p>
+            </div>
+          </div>
+          <div class="acordeon">
+            <button class="accordion">4. Nível 4 – Especialistas</button>
+            <div class="panel">
+              <p>Este é o último nível hierárquico. É o nível de resolução de problemas complexos e de novas soluções. As chamadas e solicitações que não foram resolvidas nos níveis inferiores têm que ser resolvidas nele. Cada problema é passado a um especialista de cada produto.</p>
+            </div>
+          </div>
+        </div>
+        <div class="suporte">
+          <h2>Manutenção de computadores</h2>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/computer-technology-workshop-repair-school-hardware-678346-pxhere.com-375.jpg">
+            <source media="(min-width: 769px)" srcset="img/computer-technology-workshop-repair-school-hardware-678346-pxhere.com-769.jpg">
+            <img src="img/computer-technology-workshop-repair-school-hardware-678346-pxhere.com-375.jpg" alt="Manutenção">
+          </picture>
+          <h3>Visão Geral</h3>
+          <p>A manutenção de computadores pessoais, comumente referida como “manutenção de micros”, é um conjunto de práticas e procedimentos realizados para garantir que um computador funcione de forma eficaz e confiável. Essas atividades são essenciais para prolongar a vida útil do computador, evitar problemas de desempenho e garantir a segurança dos dados.</p>
+          <h3>Processo de manutenção</h3>
+          <div class="acordeon">
+            <button class="accordion">1. Limpeza Física</button>
+            <div class="panel">
+              <p>• Remoção de poeira e sujeira do interior do computador.</p>
+              <p>• Limpeza de teclado, mouse e monitor.</p>
+              <p>• Ventilação e resfriamento adequados.</p>
+            </div>
+          </div>
+          <div class="acordeon">
+            <button class="accordion">2. Atualizações de Hardware</button>
+            <div class="panel">
+              <p>• Substituição ou atualização de componentes como memória RAM, disco rígido, placa de vídeo, processador, etc.</p>
+              <p>• Verificação e aperto de conexões internas, como cabos e placas.</p>
+            </div>
+          </div>
+          <div class="acordeon">
+            <button class="accordion">3. Atualizações de Software</button>
+            <div class="panel">
+              <p>• Manter o sistema operacional e programas atualizados com as últimas versões e correções de segurança.</p>
+              <p>• Remoção de programas não utilizados ou desatualizados.</p>
+            </div>
+          </div>
+          <div class="acordeon">
+            <button class="accordion">4. Backup de Dados</button>
+            <div class="panel">
+              <p>• Fazemos cópias de segurança de dados importantes em dispositivos externos ou na nuvem para evitar perda de informações críticas.</p>
+            </div>
+          </div>
+          <div class="acordeon">
+            <button class="accordion">5. Segurança</button>
+            <div class="panel">
+              <p>• Atualização de antivírus e software de segurança.</p>
+              <p>• Verificação regular de malware e vírus</p>
+              <p>• Utilização de senhas fortes e práticas de segurança online</p>
+            </div>
+          </div>
+          <div class="acordeon">
+            <button class="accordion">6. Atualização de Drivers</button>
+            <div class="panel">
+              <p>• Garantir que os drivers de hardware estejam atualizados para evitar conflitos e melhorar a compatibilidade.</p>
+            </div>
+          </div>
+          <div class="acordeon">
+            <button class="accordion">7. Manutenção Preventiva:</button>
+            <div class="panel">
+              <p>• Realização de verificações regulares para evitar problemas antes que ocorram.</p>
+            </div>
+          </div>
+        </div>
+        <div class="suporte">
+          <h2>Desenvolvimento Web</h2>
+          <picture>
+            <source media="(max-width: 768px)" srcset="img/computer-mobile-technology-web-internet-communication-714406-pxhere.com-375.jpg">
+            <source media="(min-width: 769px)" srcset="img/computer-mobile-technology-web-internet-communication-714406-pxhere.com-769.jpg">
+            <img src="img/computer-mobile-technology-web-internet-communication-714406-pxhere.com-375.jpg" alt="Suporte Técnico">
+          </picture>
+          <h3>Visão Geral</h3>
+          <p>Desenvolvimento web é o processo de criar sites ou aplicativos web, que podem ser acessados pela internet. Isso envolve a programação e a criação de todos os elementos técnicos, como código, banco de dados e design, para tornar um site ou aplicativo funcional e interativo. Os desenvolvedores web trabalham com linguagens de programação, tecnologias web e frameworks para construir páginas da web e aplicativos que ofereçam uma experiência agradável e eficaz para os usuários. O desenvolvimento web abrange desde sites simples até aplicativos complexos e dinâmicos, abrindo um amplo leque de possibilidades na criação de conteúdo online.</p>
+          <h3>Processo de criação</h3>
+          <div class="acordeon">
+            <button class="accordion">1. Fluxo do usuário</button>
+            <div class="panel">
+              <p>• Fluxo do Usuário (User flow) é a sequência de ações que um usuário executa ao interagir com um site ou aplicativo, projetada para alcançar um objetivo específico, como fazer uma compra ou encontrar informações. É a jornada do usuário no sistema digital.</p>
+            </div>
+          </div>
+          <div class="acordeon">
+            <button class="accordion">2. Wireframe</button>
+            <div class="panel">
+              <p>• Um wireframe é um esboço simples que mostra a estrutura de uma página da web ou aplicativo, sem detalhes de design, apenas a disposição dos elementos principais. É usado para planejar a organização e a funcionalidade de uma interface.</p>
+            </div>
+          </div>
+          <div class="acordeon">
+            <button class="accordion">3. Guia de Estilo</button>
+            <div class="panel">
+              <p>• Um guia de estilo  – também conhecido como guia de estilo digital – é um recurso onde uma marca coleta e armazena todos os elementos e regras de design de seu site. É composto por elementos gráficos, tipografia, esquema de cores e formatação geral para os desenvolvedores consultarem e seguirem para uma composição coesa do site.</p>
+            </div>
+          </div>
+          <div class="acordeon">
+            <button class="accordion">4. Mockup</button>
+            <div class="panel">
+              <p>• Um mockup é uma representação visual estática de um projeto, mostrando sua aparência e layout, mas não é funcional. É usado para comunicar conceitos de design antes de criar o produto final.</p>
+            </div>
+          </div>
+          <div class="acordeon">
+            <button class="accordion">5. Protótipo</button>
+            <div class="panel">
+              <p>• Um protótipo é um modelo inicial usado para testar e validar uma ideia ou projeto antes de criar a versão final. É uma versão preliminar para descobrir problemas e obter feedback.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section></section>
+    <a href="#" class="btn"></a>
+    <footer>
+      <section class="socials">
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+      </section>
+      <section class="img-footer">
+        <picture>
+          <source media="(max-width: 768px)" srcset="img/Background-7-120x22.png">
+          <source media="(min-width: 769px)" srcset="img/Background-7-300x54.png">
+          <img src="img/Background-7-120x22.png" alt="logo">
+        </picture>
+      </section>
+      <h6>contato@itech.rio.br</h6>
+      <p>Copyright &copy; 2024 | ITech</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/accordion.js"></script>
+  </body>
+</html>

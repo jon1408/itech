@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/alt-tailwind.css" />
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="img/cropped-powerbutton_120788-2.ico" type="image/x-icon">
+    <title>Serviços | ITECH</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+          <a href="#" class="nav-logo"><img src="img/Background-7-120x22.png" alt="logo"></a>
+          <ul class="nav-menu">
+              <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="sobre.html" class="nav-link">Sobre</a>
+              </li>
+              <li class="nav-item">
+                  <a href="servicos.html" class="nav-link">Serviços</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link">Contato</a>
+              </li>
+          </ul>
+          <button class="btn-contato">Fale Conosco</button>
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+      </nav>
+    </header>
+    <main>
+      <div class="hero-s">
+        <h1>Contato</h1>
+        <hr>
+      </div>
+      <div class="contato-cards">
+        <section class="cards-contato">
+          <i class="fa-solid fa-location-dot"></i>
+          <h4>Localização</h4>
+          <p>Leblon, Rio de Janeiro, Brasil</p>
+        </section></a>
+        <a href="#"><section class="cards-contato">
+          <i class="fa-solid fa-envelope"></i>
+          <h4>E-mail</h4>
+          <p>contato@itech.rio.br</p>
+        </section></a>
+        <a href="#"><section class="cards-contato-s">
+          <i class="fa-solid fa-phone-flip"></i>
+          <h4>Suporte ao Cliente</h4>
+          <p>(+55)21 98266-3720</p>
+        </section></a>
+      </div>
+      <section id="contato">
+        <h2>Entre em contato</h2>
+      
+        <form action="enviar.php" method="post">
+          <input type="text" name="nome" placeholder="Nome" required>
+          <input type="email" name="email" placeholder="E-mail" required>
+          <input type="text" name="assunto" placeholder="Assunto" required>
+          <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+          <input type="submit" value="Enviar" id="botao-form">
+        </form>
+      </section>      
+    </main>
+    <section></section>
+    <a href="#" class="btn"></a>
+    <footer>
+      <section class="socials">
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+      </section>
+      <section class="img-footer">
+        <picture>
+          <source media="(max-width: 768px)" srcset="img/Background-7-120x22.png">
+          <source media="(min-width: 769px)" srcset="img/Background-7-300x54.png">
+          <img src="img/Background-7-120x22.png" alt="logo">
+        </picture>
+      </section>
+      <h6>contato@itech.rio.br</h6>
+      <p>Copyright &copy; 2024 | ITech</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/accordion.js"></script>
+  </body>
+</html>
