@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Conheça a ITech e nossa proposta de oferecer soluções de tecnologia simples, eficientes e sob medida para empresas." />
+    <meta name="theme-color" content="#0A1728" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
@@ -18,12 +20,16 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="img/cropped-powerbutton_120788-2.ico" type="image/x-icon">
-    <title>Sobre | ITECH</title>
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Sobre a ITech | Consultoria de T.I.">
+    <meta property="og:description" content="Conheça a ITech e nossa proposta de oferecer soluções de tecnologia simples, eficientes e sob medida para empresas.">
+    <meta property="og:type" content="website">
+    <title>Sobre a ITech | Consultoria e Tecnologia</title>
   </head>
   <body>
     <header class="header">
       <nav class="navbar">
-          <a href="#" class="nav-logo"><img src="img/Background-7-120x22.png" alt="logo"></a>
+          <a href="index.html" class="nav-logo"><img src="img/Background-7-120x22.png" alt="logo"></a>
           <ul class="nav-menu">
               <li class="nav-item">
                   <a href="index.html" class="nav-link">Home</a>
@@ -38,7 +44,7 @@
                   <a href="contato.html" class="nav-link">Contato</a>
               </li>
           </ul>
-          <button class="btn-contato">Fale Conosco</button>
+          <a class="btn-contato" href="contato.html">Fale Conosco</a>
           <div class="hamburger">
               <span class="bar"></span>
               <span class="bar"></span>
@@ -47,92 +53,123 @@
       </nav>
     </header>
     <main>
-      <div class="hero-s">
-        <h1>Sobre nós</h1>
-        <hr>
-      </div>
-      <div class="about-s">
-        <div class="img-block-s">
-          <picture>
-            <source media="(max-width: 768px)" srcset="img/LANHOUSE-SOCIAL.jpg-300x169.webp">
-            <source media="(min-width: 769px)" srcset="img/LANHOUSE-SOCIAL.jpg-768x432.webp">
-            <img src="img/LANHOUSE-SOCIAL.jpg-300x169.webp" alt="mesas com computadores">
-          </picture>
+      <!-- HERO -->
+      <section class="v2-page-hero">
+        <div class="v2-container v2-page-hero-inner">
+          <nav class="v2-breadcrumb"><a href="index.html">Home</a><span>/</span>Sobre</nav>
+          <span class="v2-eyebrow"><i class="fa-solid fa-building"></i> Quem somos</span>
+          <h1>Consultoria de T.I. que fala a língua do seu <span>negócio.</span></h1>
+          <p>Empresa de informática no Rio de Janeiro, especialista em projetos de consultoria de T.I. que levam soluções inteligentes de tecnologia da informação para o seu negócio.</p>
         </div>
-        <div class="txt-block-about">
-          <p>Empresa de informática localizada no Rio de Janeiro, especialista em Projetos de Consultoria de TI que levam para o seu negócio soluções inteligentes na área de tecnologia da informação.</p><br><br>
-          <p>É amplamente reconhecida a importância da tecnologia da informação nas empresas. No entanto, muitas organizações ainda enfrentam desafios ao lidar com ela de maneira eficiente. Nosso principal objetivo é ajudar sua empresa a alcançar maior rentabilidade e sucesso, proporcionando agilidade e eficiência. Por meio de nossos serviços, garantimos qualidade, excelência e o melhor retorno para suas necessidades de negócio. Com sistemas ágeis e eficientes, você poderá se concentrar com segurança e tranquilidade nas atividades principais de sua empresa.</p><br>
-          <p>Vamos conversar</p><br><br>
-          <a href="mailto:contato@itech.rio.br"><h3>contato@itech.rio.br</h3></a>
+      </section>
+
+      <!-- APRESENTAÇÃO -->
+      <section class="v2-about">
+        <div class="v2-container v2-about-grid">
+          <div class="v2-about-media">
+            <picture>
+              <source media="(max-width: 768px)" srcset="img/LANHOUSE-SOCIAL.jpg-300x169.webp">
+              <source media="(min-width: 769px)" srcset="img/LANHOUSE-SOCIAL.jpg-768x432.webp">
+              <img src="img/LANHOUSE-SOCIAL.jpg-300x169.webp" alt="Mesas com computadores em ambiente de trabalho">
+            </picture>
+            <div class="v2-locate-badge">
+              <i class="fa-solid fa-location-dot"></i>
+              <div><strong>Rio de Janeiro</strong><span>Atendimento local</span></div>
+            </div>
+          </div>
+          <div class="v2-about-copy">
+            <span class="v2-eyebrow v2-eyebrow-dark">Nossa história</span>
+            <h2>Tecnologia explicada de um jeito que faz <span>sentido pra você.</span></h2>
+            <p>É amplamente reconhecida a importância da tecnologia da informação nas empresas. No entanto, muitas organizações ainda enfrentam desafios ao lidar com ela de maneira eficiente.</p>
+            <p>Nosso principal objetivo é ajudar sua empresa a alcançar maior rentabilidade e sucesso, proporcionando agilidade e eficiência. Com sistemas ágeis, você pode se concentrar com segurança nas atividades principais do seu negócio.</p>
+            <a class="v2-email-line" href="mailto:contato@itech.rio.br"><i class="fa-solid fa-envelope"></i> contato@itech.rio.br</a>
+          </div>
         </div>
-        
-      </div>
-      <!-- Descrições e Visão -->
-      <div class="descricao">
-        <div class="txt-block-descricao">
-          <h3>Gestão de T.I.</h3>
-          <hr>
-          <p>Com profissionais experientes no segmento, a ITech é uma empresa de Informática que está sempre de olho em todas novidades na área de tecnologia da informação e comunicação. Oferecemos exclusividade e inovação acompanhados de alta tecnologia, simplificação de sistemas e economia. Excelência, inovação e parceria são marcas registradas da ITech e, a partir de agora, do seu negócio.</p>
-          <h4>Nós entregamos valor aos nossos clientes através de:</h4>
-          <p>• Gerenciamento positivo do setor de TI;</p>
-          <p>• Respeito às regras de qualidade e de segurança da informação nacionais e internacionais;</p>
-          <p>• Entrega dentro dos prazos especificados na contratação.</p>
+      </section>
+
+      <!-- GESTÃO DE T.I. -->
+      <section class="v2-alt">
+        <div class="v2-container v2-alt-grid">
+          <div class="v2-alt-copy">
+            <span class="v2-eyebrow v2-eyebrow-dark">Gestão de T.I.</span>
+            <h2>Excelência, inovação e parceria <span>como padrão.</span></h2>
+            <p>Com profissionais experientes no segmento, a ITech está sempre de olho nas novidades da área de tecnologia da informação e comunicação. Oferecemos exclusividade e inovação, acompanhadas de alta tecnologia, simplificação de sistemas e economia.</p>
+            <ul class="v2-check-list">
+              <li><i class="fa-solid fa-check"></i> Gerenciamento positivo do setor de T.I.</li>
+              <li><i class="fa-solid fa-check"></i> Respeito às regras de qualidade e segurança da informação nacionais e internacionais</li>
+              <li><i class="fa-solid fa-check"></i> Entrega dentro dos prazos especificados na contratação</li>
+            </ul>
+          </div>
+          <div class="v2-alt-media">
+            <picture>
+              <source media="(max-width: 768px)" srcset="img/jent-jiang-fKfxvNQFmQ8-unsplash-300x200.jpg">
+              <source media="(min-width: 769px)" srcset="img/jent-jiang-fKfxvNQFmQ8-unsplash-768x512.jpg">
+              <img src="img/jent-jiang-fKfxvNQFmQ8-unsplash-300x200.jpg" alt="Tabuleiro de xadrez representando estratégia">
+            </picture>
+          </div>
         </div>
-        <div class="img-gestao">
-          <picture>
-            <source media="(max-width: 768px)" srcset="img/jent-jiang-fKfxvNQFmQ8-unsplash-300x200.jpg">
-            <source media="(min-width: 769px)" srcset="img/jent-jiang-fKfxvNQFmQ8-unsplash-768x512.jpg">
-            <img src="img/jent-jiang-fKfxvNQFmQ8-unsplash-300x200.jpg" alt="tabuleiro de xadrez">
-          </picture>
+      </section>
+
+      <!-- MISSÃO & VISÃO -->
+      <section class="v2-mvv">
+        <div class="v2-container">
+          <div class="v2-section-head v2-section-head-light">
+            <span class="v2-eyebrow">Para onde vamos</span>
+            <h2>Missão e visão que guiam <span>cada atendimento.</span></h2>
+          </div>
+          <div class="v2-mvv-grid">
+            <div class="v2-mvv-card">
+              <i class="fa-solid fa-bullseye"></i>
+              <h3>Missão</h3>
+              <p>Fornecer consultoria especializada em tecnologia da informação, com soluções inovadoras e adaptadas às necessidades das empresas do ramo administrativo — impulsionando a eficiência operacional, a segurança de dados e o crescimento dos nossos clientes.</p>
+            </div>
+            <div class="v2-mvv-card">
+              <i class="fa-solid fa-eye"></i>
+              <h3>Visão</h3>
+              <p>Ser a principal consultoria de T.I. para pequenas empresas do ramo administrativo, reconhecida pela excelência e qualidade dos nossos serviços — parceiros confiáveis, com expertise, inovação e compromisso com o sucesso de quem confia na ITech.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="missao">
-        <div class="img-missao">
-          <picture>
-            <source media="(max-width: 768px)" srcset="img/wylly-suhendra-Swk4G_xi_uM-unsplash-300x200.jpg">
-            <source media="(min-width: 769px)" srcset="img/wylly-suhendra-Swk4G_xi_uM-unsplash-768x513.jpg">
-            <img src="img/wylly-suhendra-Swk4G_xi_uM-unsplash-300x200.jpg" alt="mãos unidas">
-          </picture>
+      </section>
+
+      <!-- VALORES -->
+      <section class="v2-values">
+        <div class="v2-container">
+          <div class="v2-section-head">
+            <span class="v2-eyebrow v2-eyebrow-dark">O que nos move</span>
+            <h2>Valores que sustentam <span>a ITech.</span></h2>
+          </div>
+          <div class="v2-values-grid">
+            <article class="v2-value-card"><i class="fa-solid fa-award"></i><h3>Excelência técnica</h3><p>Buscamos a excelência em todos os aspectos do nosso trabalho, mantendo um alto padrão de conhecimento e habilidades técnicas.</p></article>
+            <article class="v2-value-card"><i class="fa-solid fa-handshake"></i><h3>Parceria com o cliente</h3><p>Valorizamos relacionamentos de longo prazo, entendendo as necessidades de cada cliente e colaborando de forma proativa.</p></article>
+            <article class="v2-value-card"><i class="fa-solid fa-lightbulb"></i><h3>Inovação contínua</h3><p>Promovemos a inovação como parte do nosso DNA, buscando constantemente novas soluções e abordagens tecnológicas.</p></article>
+            <article class="v2-value-card"><i class="fa-solid fa-scale-balanced"></i><h3>Integridade e ética</h3><p>Agimos com integridade em todos os aspectos do negócio, mantendo a confiança de clientes e parceiros.</p></article>
+            <article class="v2-value-card"><i class="fa-solid fa-people-group"></i><h3>Colaboração e equipe</h3><p>Valorizamos o trabalho em equipe, reconhecendo que as melhores soluções nascem da união de perspectivas.</p></article>
+            <article class="v2-value-card"><i class="fa-solid fa-seedling"></i><h3>Desenvolvimento pessoal</h3><p>Investimos no crescimento da nossa equipe, capacitando cada pessoa a alcançar seu pleno potencial.</p></article>
+          </div>
         </div>
-        <div class="txt-block-missao">
-          <h3>Missão</h3>
-          <hr>
-          <p>A ITech tem a missão de fornecer consultoria especializada em tecnologia da informação, oferecendo soluções inovadoras e adaptadas às necessidades das empresas do ramo administrativo. Nosso objetivo é impulsionar a eficiência operacional, garantir a segurança de dados e promover o crescimento dos negócios dos nossos clientes, através do uso estratégico e inteligente da tecnologia.</p>
+      </section>
+
+      <!-- CTA -->
+      <section class="v2-final-cta">
+        <div class="v2-container">
+          <div class="v2-final-card">
+            <div>
+              <span class="v2-eyebrow">Consultoria de T.I.</span>
+              <h2>Inicie um novo estágio de eficiência na sua empresa.</h2>
+              <p>Entre em contato com a ITech e descubra como simplificar a tecnologia do seu negócio.</p>
+            </div>
+            <div class="v2-final-actions">
+              <a class="v2-btn v2-btn-primary" href="https://wa.me/5521982663720?text=Olá%20ITech!%20Quero%20conhecer%20a%20consultoria%20de%20T.I.">Falar pelo WhatsApp <i class="fa-brands fa-whatsapp"></i></a>
+              <a class="v2-btn v2-btn-outline" href="contato.html">Outras formas de contato</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="visao">
-        <div class="txt-block-visao">
-          <h3>Visão</h3>
-          <hr>
-          <p>Ser a principal consultoria de T.I. para pequenas empresas do ramo administrativo, reconhecida pela excelência e qualidade de nossos serviços. Buscamos ser parceiros confiáveis e de referência no setor, destacando-nos pela expertise, pela inovação tecnológica e pelo compromisso com o sucesso de nossos clientes.</p>
-        </div>
-        <div id="branco">
-          <p>&nbsp;</p>
-        </div>
-      </div>
-      <div class="valores">
-        <div class="txt-block-valores">
-          <h3>Valores</h3>
-          <hr>
-          <p>• Excelência Técnica: Buscamos a excelência em todos os aspectos do nosso trabalho, mantendo um alto padrão de conhecimento e habilidades técnicas.</p>
-          <p>• Parceria com o Cliente: Valorizamos relacionamentos de longo prazo com nossos clientes, entendendo suas necessidades e colaborando de forma proativa para alcançar seus objetivos.</p>
-          <p>• Inovação Contínua: Promovemos a inovação como uma parte fundamental de nosso DNA, buscando constantemente novas soluções e abordagens tecnológicas para resolver desafios.</p>
-        </div>
-        <div class="txt-block-valores-2">
-          <p>• Integridade e Ética: Agimos com integridade e ética em todos os aspectos de nosso negócio, mantendo a confiança de nossos clientes e parceiros.</p>
-          <p>•Colaboração e Trabalho em Equipe: Valorizamos o trabalho em equipe e a colaboração, reconhecendo que as melhores soluções frequentemente resultam da união de diversas perspectivas e habilidades.</p>
-          <p>•Desenvolvimento Pessoal: Investimos no crescimento e no desenvolvimento de nossa equipe, capacitando-os a alcançar seu pleno potencial.</p>
-        </div>
-      </div>
-      <div class="card-turquoise">
-        <h1>Consultoria de T.I.</h1>
-        <hr>
-        <p>Inicie um novo estágio de eficiência e desempenho em sua empresa ao entrar em contato com a ITech.</p>
-        <button>Entrar em Contato</button>
-      </div>
+      </section>
     </main>
-    <section></section>
-    <a href="#" class="btn"></a>
+    <a class="whatsapp-float" href="https://wa.me/5521982663720?text=Olá%20ITech!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20sobre%20um%20serviço." aria-label="Falar com a ITech pelo WhatsApp" target="_blank" rel="noopener">
+      <i class="fa-brands fa-whatsapp"></i>
+    </a>
     <footer>
       <section class="socials">
         <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
@@ -141,7 +178,7 @@
       <section class="img-footer">
         <picture>
           <source media="(max-width: 768px)" srcset="img/Background-7-120x22.png">
-          <source media="(min-width: 769px)" srcset="img/Background-7-300x54.png">
+          <source media="(min-width: 769px)" srcset="img/Background-7-200x36.png">
           <img src="img/Background-7-120x22.png" alt="logo">
         </picture>
       </section>
