@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://itechbr.netlify.app/sitemap.xml

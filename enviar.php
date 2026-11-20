@@ -1,15 +1,6 @@
 <?php
-
-// Recebe os dados do formulário
-$nome = $_POST["nome"];
-$email = $_POST["email"];
-$assunto = $_POST["assunto"];
-$mensagem = $_POST["mensagem"];
-
-// Envia um e-mail para o administrador do site
-mail("contato@itech.rio.br", "Mensagem do formulário de contato", "Nome: $nome\nE-mail: $email\nAssunto: $assunto\nMensagem: $mensagem");
-
-// Exibe uma mensagem de confirmação
-echo "<p>Sua mensagem foi enviada com sucesso!</p>";
-
+// Mantido por compatibilidade. O formulário atual usa Netlify Forms,
+// que funciona no deploy estático da Netlify sem processamento PHP.
+header('Location: contato.html');
+exit;
 ?>
